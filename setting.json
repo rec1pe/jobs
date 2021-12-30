@@ -2,7 +2,7 @@
   "name-web":"Situs Jobs | Karir Terkini",
   "author":"jobs",
   "remove-comment-html":true,
-  "target":"https://www.karir.com",
+  "target":"https://www.loker.id",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"https://www.karir.com",
+      "target":"https://www.loker.id",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://www.karir.com",
+          "target":"https://www.loker.id",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"https://www.karir.com",
+      "target":"https://www.loker.id",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
@@ -49,7 +49,7 @@
       "replace-string":[]
     },
     {
-      "target":"https://www.karir.com",
+      "target":"https://www.loker.id",
       "element-remove-selector":[
         ".box-header",
         ".box-language",
@@ -59,7 +59,7 @@
       "replace-string":[]
     },
     {
-      "target":"https://www.karir.com",
+      "target":"https://www.loker.id",
       "element-remove-selector":[
         "header",
         ".trail-wrapper",
